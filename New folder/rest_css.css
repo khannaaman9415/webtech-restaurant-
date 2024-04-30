@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: solid;
+    text-align: center;
+} 
+.bg{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    color: white;
+    font-family: Sacramento;
+    font-style: italic;
+    font-size: 70px;
+  }
+.center{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-family: Georgia;
+    font-style: bold;
+    font-size: 120px;
+}
+.intro{
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 73%;
+        left: 38%;
+        right: 38%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+}
+.logo img{
+    width: 150px
+}
+.header{
+    font-family: Georgia;
+    font-style: bold;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: hsla(0, 0%, 100%, 0.99);
+    border-bottom: 1px black;
+    height: 90px;
+    padding: 10px;
+    justify-content: space-between;
+    color: rgb(255, 0, 0);
+    z-index: 1000;
+}
+.header ul{
+    display: flex;
+    align-items: center; 
+}
+a {
+  color: #170000;
+  font-family: Cascadia;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  position: relative;
+}
+.header ul li:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    color: rgb(255, 91, 91);
+}
+.account{
+    flex: 0.1;
+    font-size: 23px;
+    padding: 5px;
+}
+.account i:hover{
+    color: gray;
+}
+.pics{
+    align-items: center;
+    display: block;
+    justify-content: space-around;
+}
+.pics img{
+    width: 248px;
+    height: 248px;
+}
+.pics img:hover{
+    transform: scale(1.1);
+    transition: 0.45s;
+}
+.New_Beginnings{
+        position: absolute;
+        top: 188%;
+        font-family: Sacramento;
+        font-style: italic;
+        color: rgb(131, 131, 0);
+        font-size: 70px;
+        align-items: center;
+        left: 35%;
+}
+.ourstory{
+    position: absolute;
+    font-family: Georgia;
+    font-style: bold;
+    font-size: 70px;
+    color: black;
+    align-items: center;
+    left: 36%;
+    top: 197%;
+}
+.story{
+    color: rgb(138, 138, 138);
+    padding-left: 32%;
+    padding-right: 32%;
+    padding-top: 2%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.food{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.foodcon{
+    position: absolute;
+    top: 225%;
+    right: 50%;
+    color: black;
+    font-family: Sacramento;
+    font-style: italic;
+    font-size: 35px;
+}
+.OURCHEF{
+    position: absolute;
+    font-family: Georgia;
+    font-style: bold;
+    font-size: 60px;
+    color: black;
+    align-items: center;
+    left: 47%;
+    top: 275%;
+}
+.chef{
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 270%;
+}
+.contentchef{
+    position: absolute;
+    left: 25%;
+    top: 300%;
+    color: rgb(138, 138, 138);
+    padding-left: 20%;
+    padding-right: 30%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chefdesign{
+    position: absolute;
+    left: 54%;
+    top: 257%;
+    color: rgb(138, 138, 138);
+    padding-left: 20%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.menu{
+    position: absolute;
+    top: 400%;
+    left: 3%;
+.menutext{
+    position: absolute;
+    font-family: Georgia;
+    font-style: bold;
+    top: -13%;
+    left: 24%;
+    font-size: 60px;
+}
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Sacramento;
+    font-style: italic;
+    color: rgb(131, 131, 0);
+  }
+.appetizers{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+}
+.appetizers img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.entrees{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+}
+.entrees img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.desserts{
+    position: absolute;
+    top: 0%;
+    left: 170%;
+}
+.desserts img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.drinks{
+    position: absolute;
+    top: 50%;
+    left: 170%;
+}
+.drinks img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.button {
+    background-color: #aa0404;
+    border: none;
+    font-family: Georgia;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+  }
+  
+  .button {
+    position: absolute;
+    left: 156%;
+    top: 88%;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #aa0404;
+  }
+
+  .button:hover {
+    background-color: #aa0404;
+    color: white;
+  }
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .item-name {
+    font-family: Georgia;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .item-price {
+    color: #999;
+    font-style: italic;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+  } 
+footer a{
+    color: rgb(131, 131, 0);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: rgb(255, 0, 0);
+}
+}
+
+
+
+
