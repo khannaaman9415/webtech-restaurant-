@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Reservation</title>
+  <link rel="stylesheet" href="reservation_css.css"> </head>
+  <body>
+    <img src="Images/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg">
+  <h1>Make a Reservation at RED MANGO</h1>
+  <a href="rest_html.html">
+    <li>HOME</li>
+</a>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required><br>
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required><br>
+    <label for="party">Party Size:</label>
+    <input type="number" id="party" name="party" min="1" required><br>
+    <label for="request">Special Requests (Optional):</label>
+    <textarea id="request" name="request" rows="4"></textarea><br>
+    <button type="submit">Submit Reservation</button>
+  </form>
+</body>
+</html>
